@@ -1,3 +1,4 @@
+// deleted
 terraform {
     source = "../../../../../module/gcp/instances"
 }
