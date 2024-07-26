@@ -1,1 +1,10 @@
 PAT : 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
+
+sudo atlantis server \
+--atlantis-url="http://34.50.87.203" \
+--gh-user="adhithia21" \
+--gh-token="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" \
+--gh-webhook-secret="Atlantis#123secret" \
+--repo-allowlist="github.com/adhithia21/terraform-batch-15" \
+--port=80 \
+--config=/etc/atlantis/atlantis.yaml
